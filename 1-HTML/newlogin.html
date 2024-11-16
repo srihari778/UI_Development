@@ -1,0 +1,54 @@
+<!--
+usename
+password
+gender
+branches
+Languages local
+text area->address
+
+
+-->
+<html>
+  <head>
+    <title>Login Page</title>
+  </head>
+  <body>
+    <center>
+      <h1>Registration Form</h1>
+      <form action="Exp11-LoginPage.html">
+        Username:
+        <input
+          type="text"
+          name="uname"
+          placeholder="Enter the name:"
+          required
+        />
+        <br />
+        password:
+        <input
+          type="password"
+          name="pass"
+          placeholder="Enter Password"
+          required
+        /><br />
+        gender: <input type="radio" name="gender" value="m" />Male
+        <input type="radio" name="gender" value="f" />Female <br />
+        age: <input type="number" /> <br />
+        Select the Branch:
+        <select name="branche">
+          <option value="it">IT</option>
+          <option value="non-it">NON-IT</option>
+        </select>
+        <br />
+        Languages Known: <input type="checkbox" name="Telugu" />Telugu
+        <input type="checkbox" name="Engish" />Engish
+        <input type="checkbox" name="Hindi" />Hindi
+        <br />
+        Address:
+        <textarea name="adress" cols="15" rows="3">Address....</textarea>
+        <br />
+        <input type="submit" name="submit" />
+      </form>
+    </center>
+  </body>
+</html>
