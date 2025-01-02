@@ -1,0 +1,30 @@
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+section {
+  padding: 20px;
+}
+footer {
+  background-color: #2858de;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}

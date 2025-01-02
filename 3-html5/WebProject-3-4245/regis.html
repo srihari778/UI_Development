@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>My Website</title>
+    <style>
+      body {
+        background-image: url("login.webp");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <nav align="right">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="regis.html">Sign Up</a></li>
+        <li><a href="loginn.html">Sign-In</a></li>
+      </ul>
+    </nav>
+    <center>
+      <table>
+        <h2>Registration Form</h2>
+        <form action="loginn.html">
+          <tr>
+            <th>Username:</th>
+            <td>
+              <input
+                type="text"
+                name="uname"
+                placeholder="Enter the name: "
+                required
+                autofocus
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>password:</th>
+            <td>
+              <input
+                type="password"
+                name="pass"
+                id=""
+                placeholder="Enter the Password"
+                required
+              />
+            </td>
+            <br />
+          </tr>
+          <tr>
+            <th>Gender:</th>
+            <td>
+              <input type="radio" name="m" />Male
+              <input type="radio" name="f" />female
+            </td>
+          </tr>
+          <tr>
+            <th>Age:</th>
+            <td>
+              <input type="number" name="age" placeholder="Select Age.." />
+            </td>
+          </tr>
+          <tr>
+            <th>Date of Birth:</th>
+            <td><input type="date" /></td>
+          </tr>
+          <tr>
+            <th>Branch:</th>
+            <td>
+              <select name="branch" id="branch">
+                <option value="it">IT</option>
+                <option value="non-it">NON-IT</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th>Language Known:</th>
+            <td>
+              <input type="checkbox" name="Telugu" />Telugu
+              <input type="checkbox" name="Engish" />Engish
+              <input type="checkbox" name="Hindi" />Hindi
+            </td>
+          </tr>
+          <tr>
+            <th>Gmail:</th>
+            <td>
+              <input type="email" name="mail" placeholder="Enter Mail id.." />
+            </td>
+          </tr>
+          <tr>
+            <th>Phone Number:</th>
+            <td>
+              <input type="tel" name="Personal" id="per1" pattern="[0-9]{10}"
+              title="the ten digits"
+            </td>
+          </tr>
+          <tr>
+            <th>Address:</th>
+            <td>
+              <textarea
+                name="adress"
+                cols="15"
+                rows="3"
+                placeholder="Address...."
+              ></textarea>
+            </td>
+          </tr>
+          <th><input type="submit" name="submit" /></th>
+          <th><input type="reset" /></th>
+        </form>
+      </table>
+    </center>
+  </body>
+</html>
