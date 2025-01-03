@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Animation...</title>
+    <style>
+      .box {
+        margin: 50px;
+        width: 235px;
+        height: 205px;
+        background: url("foot.jpg"), no-repeat;
+        position: relative;
+        animation: repeatit 2s linear 1s infinite alternate;
+      }
+      @keyframes repeatit {
+        from {
+          left: 0;
+        }
+        to {
+          left: 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>
